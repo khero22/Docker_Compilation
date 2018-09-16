@@ -1,0 +1,8 @@
+docker build -t khero22/bimserver .
+
+docker login --username=khero22 
+
+docker tag bb38976d03cf khero22/bimserver:1.5.101
+
+docker push khero22/bimserver:1.5.101
+
